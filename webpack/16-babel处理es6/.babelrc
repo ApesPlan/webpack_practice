@@ -1,0 +1,16 @@
+// {
+//     // 写类库的时候调用的插件
+//     // "plugins": [["@babel/plugin-transform-runtime", {
+//     //     "corejs": 2,
+//     //     "helpers": true,
+//     //     "regenerator": true,
+//     //     "useESModules": false
+//     // }]],
+//     // presets: ["@babel/preset-env"] // es6中的函数和变量有些还是不能翻译
+//     presets: [['@babel/preset-env', {
+//         // targets: { // 在大于什么样的版本的浏览器生效
+//         //     chrome: '67',
+//         // },
+//         useBuiltIns: 'usage' // 自定义根据需求加载特殊的es6变量和函数
+//     }]]
+// }
